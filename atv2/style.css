@@ -1,0 +1,93 @@
+.caixadoHeader{
+    background-color: #7FB77E;
+    width: auto;
+    padding: 40px;
+    border: 15px, #679166;
+    border-radius: 15px;
+}
+
+header{
+    text-align: center;
+}
+
+#logo{
+    width: 183px;
+    height: 150px;
+    display: flex;
+    padding: 5px;
+    margin-top: -145px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    padding: 15px
+}
+
+body{
+    background: #b7e8a2;
+    background: linear-gradient(90deg, rgba(183, 232, 162, 1) 0%, rgba(255, 248, 240, 1) 68%);
+}
+
+#tituloClinica{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.enderecoContato {
+    display: flex;
+    justify-content:flex-start;
+    height: 200px;
+}
+
+#enderecoMaps{
+    font-weight: bold;
+}
+
+.container {
+    padding: 20px;
+    margin: 10px;
+    position: absolute; 
+    bottom: 0; left: 0;
+  
+}
+
+.container2 {
+  display: flex;
+  justify-self: center;
+  height: 250px;
+  width: fit-content;
+  border: 3px solid black;
+}
+
+.formulario{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-self: center;
+    background-color: lightgrey;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 30px;
+}
+
+input{
+    width: 60%;
+}
+
+#botaoForm{
+    border-radius: 3px;
+    color:rgb(0, 0, 0);
+    font-style: italic;
+    position: relative;
+    padding:5px;
+    top:25px;  
+    left: 3%;
+}
+    
