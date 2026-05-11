@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0047AB;
+    background: linear-gradient(90deg, rgba(0, 71, 171, 1) 20%, rgba(20, 52, 164, 1) 57%, rgba(25, 25, 112, 1) 92%);
+}
+
+header h1{
+    display: grid;
+    justify-items: center;
+}
+
+nav, nav a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+}
+
+.imgIndex{
+    display: grid;
+    justify-items: center;
+}
+
+.imgIndex img{
+    margin: 15px;
+    box-shadow: 0 0 15px;
+}
+
+footer{
+    position: fixed;
+    inset: auto 0 0 0;
+}
+
+.divIdade{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    background-color: aliceblue;
+    padding: 65px;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 15%;
+    box-shadow: 0 0 15px;
+}
+
+.divIdade button{
+    display: grid;
+    justify-self: center;
+    background-color:gainsboro;
+    margin-top: 10px;
+    padding: 13px;
+    width: 40%;
+}
+
+.divLogin{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    background-color: aliceblue;
+    padding: 65px;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 15%;
+    box-shadow: 0 0 15px;
+}
+
+.divLogin button{
+    display: grid;
+    justify-self: center;
+    background-color:gainsboro;
+    margin-top: 10px;
+    padding: 13px;
+    width: 40%;
+}
+
+.divDesconto{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    background-color: aliceblue;
+    padding: 65px;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 15%;
+    box-shadow: 0 0 15px;
+}
+
+.divDesconto button{
+    display: grid;
+    justify-self: center;
+    background-color:gainsboro;
+    margin-top: 10px;
+    padding: 13px;
+    width: 40%;
+}
+
+.divAvaliacao{
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    background-color: aliceblue;
+    padding: 65px;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 15%;
+    box-shadow: 0 0 15px;
+}
+
+.divAvaliacao button{
+    display: grid;
+    justify-self: center;
+    background-color:gainsboro;
+    margin-top: 10px;
+    padding: 13px;
+    width: 40%;
+}
