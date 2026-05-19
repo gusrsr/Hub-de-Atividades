@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro de Produtos</h1>     
+    </header>
+                <!--Pr == produto-->
+    <main>
+        <div class="divCadastro">
+        <label for="inputNomePr">Nome do produto</label> <br>   
+        <input id="inputNomePr" placeholder="Insira o nome aqui"> <br>
+
+        <label for="inputPrecoPr">Preço do produto</label> <br>
+        <input id="inputPrecoPr" placeholder="Insira o preço aqui">   <br>
+        
+        <button id="buttonPr">Cadastrar</button>
+        <p id="msgErro"></p>
+        </div>
+
+        <div class="divLista">
+        <h3>Produtos cadastrados</h3>
+        <ul id="uLista">
+            
+        </ul>
+            <p id="quantidade"></p>
+        </div>
+    </main>
+
+    <footer>2026&copy;, Todos os direitos reservados.</footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
